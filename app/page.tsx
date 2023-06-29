@@ -11,7 +11,9 @@ export default function Home() {
   <div className="text-white">
    <Link href={"/about"}>about</Link>
    <div>
-    <p>count value is {count}</p>
+    <p>
+     count value is <>{count}</>
+    </p>
    </div>
   </div>
  );
