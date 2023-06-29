@@ -12,7 +12,7 @@ export default function Home() {
    <Link href={"/about"}>about</Link>
    <div>
     <p>
-     count value is <>{count}</>
+     countSlice count value is <>{count}</>
     </p>
    </div>
   </div>
