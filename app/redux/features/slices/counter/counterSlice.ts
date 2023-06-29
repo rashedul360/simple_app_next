@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 type Counter = {
- count: Number;
+ count: Number | bigint | any;
 };
 const initialState: Counter = {
  count: 10,
